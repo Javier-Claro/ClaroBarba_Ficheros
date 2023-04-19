@@ -5,8 +5,8 @@ public class usuarios {
 			//Atributos:
 			private String nombre="aaaaa";
 			private String apellidos="bbbbb";
-			private int edad = 0;
-			
+			private int edad = 000;
+
 			//Getters y Setter:
 			public String getNombre() {
 				return nombre;
@@ -27,6 +27,9 @@ public class usuarios {
 				this.edad = edad;
 			}
 			
+			public usuarios(String nombre, String apellidos, int edad) {
+				
+			}
 			
 			@Override
 			public String toString() {
